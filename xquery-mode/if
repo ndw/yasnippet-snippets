@@ -4,7 +4,7 @@
 # --
 if (${expr})
 then
-  ${1:then-stmt}
+  ${1:stmt}
 else
-  ${2:else-stmt}
+  ${2:stmt}
 
