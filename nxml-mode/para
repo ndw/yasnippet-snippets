@@ -1,0 +1,6 @@
+#contributor : Norman Walsh <ndw@nwalsh.com>
+#name : <para>...</para>
+# --
+<para$1>
+  $0
+</para>

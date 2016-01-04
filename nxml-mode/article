@@ -1,0 +1,11 @@
+#contributor : Norman Walsh <ndw@nwalsh.com>
+#name : <article xmlns="...">...</article>
+# --
+<article xmlns="http://docbook.org/ns/docbook"
+         version="5.1"
+         xml:id="$1">
+<info>
+  <title>$2</title>
+</info>
+$0
+</article>
