@@ -1,0 +1,12 @@
+# contributor : Norman Walsh <ndw@nwalsh.com>
+# name: xquery template
+# condition: (= (point) 7)
+# key: xquery
+# --
+xquery version "${1:1.0-ml}";
+
+declare default function namespace "http://www.w3.org/2005/xpath-functions";
+
+declare option xdmp:mapping "false";
+
+$0

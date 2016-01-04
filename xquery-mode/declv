@@ -1,0 +1,6 @@
+# contributor : Norman Walsh <ndw@nwalsh.com>
+# name: declare variable ... ;
+# key: declv
+# --
+declare ${1:%private} variable ${2:varname} := ${3:value};
+

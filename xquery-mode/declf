@@ -1,0 +1,10 @@
+# contributor : Norman Walsh <ndw@nwalsh.com>
+# name: declare function ... { ... }
+# key: declf
+# --
+declare function ${1:x} (
+   \$${2:param} as ${3:xs:string}
+) as ${4:node()}
+{
+  $0
+};
