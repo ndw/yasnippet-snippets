@@ -1,0 +1,10 @@
+# contributor : Norman Walsh <ndw@nwalsh.com>
+# name: if ($expr) then...
+# key: if
+# --
+if (${expr})
+then
+  ${1:then-stmt}
+else
+  ${2:else-stmt}
+

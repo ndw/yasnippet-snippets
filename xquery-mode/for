@@ -1,0 +1,7 @@
+# contributor : Norman Walsh <ndw@nwalsh.com>
+# name: for $var in...
+# key: for
+# --
+for \$${1:var} in ${2:expr}
+return
+  $0
